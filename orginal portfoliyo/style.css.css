@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.nav {
+  display: flex;
+  padding-left: 7%;
+  margin-top: 10px;
+  padding: 5px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.nav h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.lio {
+  color: rgb(255, 68, 0);
+}
+.menu {
+  height: 220px;
+  width: 200px;
+  background-color: rgb(109, 85, 85);
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+  border-radius: 10px;
+}
+.menu li {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.en {
+}
+.nav ul li a {
+  margin-top: px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  margin-top: 20px;
+}
+.nav ul button {
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: black;
+  padding: 0 2px;
+  background-color: rgb(255, 103, 47);
+  border-radius: 5px;
+}
+.links:hover {
+  color: rgb(255, 68, 0);
+}
+.bar {
+  display: none;
+}
+.icon {
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.icon button {
+  padding: 5px 10px;
+  color: wheat;
+  background-color: #f53f3f;
+  border: none;
+}
+.subandmenu {
+  margin-right: 10px;
+}
+
+.subscribe {
+  padding: 2px;
+  color: aliceblue;
+  background-color: rgb(255, 100, 44);
+  border-radius: 5px;
+}
+.selfintro {
+  margin-left: 15%;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.selfintro h5 {
+  color: #fcfc;
+  font-family: monospace;
+}
+.selfintro h1 span {
+  color: rgb(247, 72, 8);
+}
+.selfintro h1 {
+  margin: 13px 0;
+  font-family: serif;
+}
+.email input {
+  margin-top: 25px;
+  padding: 10px 5px;
+  width: 250px;
+  border-radius: 40px;
+  border: 3px solid rgb(231, 80, 25);
+  outline: none;
+  box-shadow: 0px 0px 5px rgb(223, 45, 45), 0px 0px 15px #858585;
+}
+
+.delay {
+  display: none;
+}
+.email button {
+  display: inline-block;
+  position: relative;
+  left: -75px;
+  outline: none;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+
+.image {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(36, 30, 30);
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.img {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  display: flex;
+}
+.sn {
+  position: relative;
+  bottom: -25px;
+  border-radius: 10px;
+}
+.about {
+  margin-left: 7%;
+}
+.about h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.about h4 {
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: 10px;
+  font-family: serif;
+}
+.about h4 span {
+  color: rgb(223, 41, 41);
+}
+.about p {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: left;
+  font-weight: 100;
+  font-size: 15px;
+}
+.about button {
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 30px;
+  background-color: #f34a4a;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #423939;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.talk {
+  text-align: center;
+}
+.services {
+  margin: 30px;
+}
+
+.our {
+  text-align: center;
+  font-weight: 0px;
+  font-family: serif;
+}
+.sanjai {
+  height: 440px;
+  width: 300px;
+  background-color: #332f2f;
+  text-align: center;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.r {
+  position: relative;
+  left: 5px;
+}
+.tappa h3 {
+  margin: 20px;
+
+  font-family: monospace;
+}
+.tappa p {
+  line-height: 40px;
+  font-family: serif;
+  font-weight: 0px;
+}
+.tappa img {
+  margin-top: 10px;
+}
+.tappa button {
+  margin-top: 20px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 57, 57);
+  color: wheat;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #a56969;
+}
+.hide {
+  margin-top: 30px;
+  background-color: rgb(46, 40, 40);
+  height: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+.hide button {
+  margin-top: 20px;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: #f53f3f;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #413535;
+}
+.last {
+  margin: 30px;
+  color: rgb(255, 246, 246);
+  height: 200px;
+  color: rgb(68, 59, 59);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(51, 48, 48);
+  border-radius: 10px;
+}
+.last h1 {
+  font-family: serif;
+  font-weight: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.last h1 span {
+  color: #f53f3f;
+}
+.last p {
+  font-family: serif "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+.c {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.c a img {
+  border-radius: 15px;
+}
+.uls {
+  height: 380px;
+  background-color: #4e3e3e;
+  color: aliceblue;
+  margin: 50px;
+  height: 220px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 300px;
+  height: 240px;
+}
+.overlay {
+  background-color: rgb(209, 209, 209);
+  opacity: 0.8;
+}
+.uls button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  color: rgb(255, 249, 249);
+  background-color: #413535;
+  border: none;
+}
+.uls ul {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.uls ul li {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.uls ul li a {
+  margin-top: 20px;
+  color: rgb(255, 253, 253);
+  text-decoration: none;
+}
+.link:hover {
+  color: #f34a4a;
+}
+#l {
+  margin-top: 30px;
+}
+.i {
+  display: none;
+}
+.link {
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 391px) {
+  .email button {
+    display: inline-block;
+    position: absolute;
+
+    left: 240px;
+    bottom: 535px;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  }
+}
